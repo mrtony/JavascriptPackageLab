@@ -9,6 +9,10 @@
 準備好bower.json, 將需要的套件設定好準備安裝.
 
 ```
+//如果bower.json中己有加入gitgraph.js的設定
+bower install
+
+//如果bower.json中沒有加入gitgraph.js的設定
 bower install gitgraph.js --save-dev
 ```
 
@@ -26,13 +30,20 @@ npm install
 * 建立gulp.config.json將gulp執行環境的靜態變數設定好.
 * 建立gulpfile.js, 載入gulp.config.json及相關gulp套件, 並建立tasks來執行相關工作.
 
+#### 運行網站
+執行以下命令並啟動網站運行
+```
+gulp serve-dev
+```
+
+開啟browser, 輸入 localhost:8080 即可看到結果.
 
 ##### Note
 若有出現缺少git, 要到環境變數中去設定
 ```
-x86
+//x86
 ;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\cmd
-x64
+//x64
 ;C:\Program Files\Git\bin;C:\Program Files\Git\cmd
 ```
 
