@@ -34,6 +34,7 @@ x86
 ;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\cmd
 x64
 ;C:\Program Files\Git\bin;C:\Program Files\Git\cmd
+```
 
 ## 設計筆記
 
